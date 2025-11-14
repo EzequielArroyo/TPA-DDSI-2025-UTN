@@ -1,0 +1,21 @@
+<div th:fragment="conteo" class="row g-3">
+    <div class="col-md-4">
+        <div class="card p-3 text-center">
+            <strong>Hechos</strong>
+            <div class="display-6" th:text="${hechos}">1</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3 text-center">
+            <strong>Fuentes</strong>
+            <div class="display-6" th:text="${fuentes != null ? fuentes : 3}">3</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3 text-center">
+            <strong>Solicitudes</strong>
+            <div class="display-6" th:text="${solicitudes != null ? solicitudes : 0}">0</div>
+        </div>
+    </div>
+</div>
+

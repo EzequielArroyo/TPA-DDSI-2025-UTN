@@ -1,0 +1,23 @@
+<!-- admin/solicitudes_fragment.html -->
+<section th:fragment="solicitudes" class="col-12">
+    <div class="card p-3">
+        <h2>Solicitudes de eliminación</h2>
+        <table class="table">
+            <thead>
+            <tr><th>Título</th><th>Autor</th><th>Fecha</th><th>Acciones</th></tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Obra calle 9</td>
+                <td>ivan.c</td>
+                <td>2025-08-28</td>
+                <td>
+                    <button class="btn btn-success btn-sm">Aprobar</button>
+                    <button class="btn btn-danger btn-sm">Rechazar</button>
+                    <button class="btn btn-warning btn-sm">Aceptar con cambios</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
